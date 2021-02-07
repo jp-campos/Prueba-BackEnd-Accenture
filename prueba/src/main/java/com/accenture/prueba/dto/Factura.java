@@ -2,12 +2,16 @@ package com.accenture.prueba.dto;
 
 public class Factura {
 	
+	public static final int DOMICILIO = 2500;
 	
-	private double valorDomicilio;
+	private double valorTotal;	
+	private int valorDomicilio;
 	private double iva;
 	
-	public Factura(double valorDomicilio, double iva) {
+	
+	public Factura(double valorTotal,int valorDomicilio, double iva) {
 		super();
+		this.valorTotal = valorTotal;
 		this.valorDomicilio = valorDomicilio;
 		this.iva = iva;
 	}
@@ -16,7 +20,7 @@ public class Factura {
 		return valorDomicilio;
 	}
 	
-	public void setValorDomicilio(double valorDomicilio) {
+	public void setValorDomicilio(int valorDomicilio) {
 		this.valorDomicilio = valorDomicilio;
 	}
 	
@@ -26,6 +30,14 @@ public class Factura {
 	
 	public void setIva(double iva) {
 		this.iva = iva;
+	}
+
+	public double getValorTotal() {
+		return valorTotal;
+	}
+
+	public void setValorTotal(double valorTotal) {
+		this.valorTotal = valorTotal;
 	} 
 	
 	

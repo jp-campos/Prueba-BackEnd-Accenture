@@ -1,4 +1,4 @@
-package model;
+package com.accenture.prueba.model;
 
 import java.util.ArrayList;
 import com.accenture.prueba.dto.Factura;

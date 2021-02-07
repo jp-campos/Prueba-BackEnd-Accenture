@@ -4,11 +4,13 @@ public class Producto {
 	
 	private String nombre; 
 	private double precio;
+	private int cantidad;
 	
-	public Producto(String nombre, double precio) {
+	public Producto(String nombre, double precio, int cantidad) {
 		super();
 		this.nombre = nombre;
 		this.precio = precio;
+		this.cantidad = cantidad;
 	}
 	
 	public String getNombre() {
@@ -23,6 +25,15 @@ public class Producto {
 	public void setPrecio(double precio) {
 		this.precio = precio;
 	}
+
+	public int getCantidad() {
+		return cantidad;
+	}
+
+	public void setCantidad(int cantidad) {
+		this.cantidad = cantidad;
+	}
+	
 	
 	
 
