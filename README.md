@@ -43,5 +43,13 @@ Los productos disponibles para pedir son :
 `localhost:8080/pedido?id={id del pedido}`
 
 
+## Para verificar
+
+## Endpoint GET
+`localhost:8080/pedidos`
+
+Retorna todos los pedidos
+
+
 
 
