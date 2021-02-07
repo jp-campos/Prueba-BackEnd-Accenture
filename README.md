@@ -45,7 +45,7 @@ Los productos disponibles para pedir son :
 
 ## Para verificar
 
-## Endpoint GET
+### Endpoint GET
 `localhost:8080/pedidos`
 
 Retorna todos los pedidos
